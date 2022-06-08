@@ -5,7 +5,7 @@
 #include <list>
 #include <math.h>
 #include<bits/stdc++.h>
-#include <C:\Users\vladu\My Drive\Teme\LFTA\generare fisier\gen_file.h>
+#include <C:\Users\JohnSmith\My Drive\Teme\LFTA\generare fisier\gen_file.h>
 using namespace std;
 void printare(int x[],int n);
 void insert_s(int x[],int n);
@@ -38,8 +38,8 @@ int main()
     s=(char*)calloc(25,sizeof(char));
     for(; p<=6; p++,n*=10)
     {
-        s=generare(p);
-        ofstream fout("rezulate_merge.txt",fstream::app);
+        s=generare(p,2);
+        ofstream fout("rezulate_merge2.txt",fstream::app);
         cout<<p;
         for(int i=10; i>0; i--)
         {
